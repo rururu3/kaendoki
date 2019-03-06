@@ -1,0 +1,25 @@
+{
+  "name": "kaendoki",
+  "version": "1.0.0",
+  "description": "火焔土器を眺める",
+  "main": "index.js",
+  "scripts": {
+    "app": "parcel index.html",
+    "build": "parcel build -d web --public-url ./ index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rururu3/kaendoki.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rururu3/kaendoki/issues"
+  },
+  "homepage": "https://github.com/rururu3/kaendoki#readme",
+  "dependencies": {
+    "js": "^0.1.0",
+    "parcel-bundler": "^1.11.0"
+  }
+}
